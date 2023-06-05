@@ -12,7 +12,7 @@ jobs:
       color: "#000000"
       thumbnail: "https://static-00.iconduck.com/assets.00/deno-icon-256x256-aruys1fu.png"
       releases: |
-        **- Deno Land:** https://deno.land/x/send-ifttt-webhook
+        **- Deno Land:** https://deno.land/x/send_ifttt_webhook
         **- GitHub (& Changelog):** ${{github.event.release.html_url}}
     secrets:
       DISCORD_WEBHOOK: "${{secrets.DISCORD_HXHS_PROJECTNEWRELEASEANNOUNCER_WEBHOOK}}"

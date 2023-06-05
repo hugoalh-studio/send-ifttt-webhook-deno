@@ -11,7 +11,7 @@
 
 | **Releases** | **Latest** (![GitHub Latest Release Date](https://img.shields.io/github/release-date/hugoalh-studio/send-ifttt-webhook-deno?label=&style=flat-square "GitHub Latest Release Date")) | **Pre** (![GitHub Latest Pre-Release Date](https://img.shields.io/github/release-date-pre/hugoalh-studio/send-ifttt-webhook-deno?label=&style=flat-square "GitHub Latest Pre-Release Date")) |
 |:-:|:-:|:-:|
-| [![Deno Land](https://img.shields.io/badge/Deno%20Land-000000?logo=deno&logoColor=ffffff&style=flat-square "Deno Land")](https://deno.land/x/send-ifttt-webhook) |  |  |
+| [![Deno Land](https://img.shields.io/badge/Deno%20Land-000000?logo=deno&logoColor=ffffff&style=flat-square "Deno Land")](https://deno.land/x/send_ifttt_webhook) |  |  |
 | [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=ffffff&style=flat-square "GitHub")](https://github.com/hugoalh-studio/send-ifttt-webhook-deno/releases) ![GitHub Total Downloads](https://img.shields.io/github/downloads/hugoalh-studio/send-ifttt-webhook-deno/total?label=&style=flat-square "GitHub Total Downloads") | ![GitHub Latest Release Version](https://img.shields.io/github/release/hugoalh-studio/send-ifttt-webhook-deno?sort=semver&label=&style=flat-square "GitHub Latest Release Version") | ![GitHub Latest Pre-Release Version](https://img.shields.io/github/release/hugoalh-studio/send-ifttt-webhook-deno?include_prereleases&sort=semver&label=&style=flat-square "GitHub Latest Pre-Release Version") |
 
 ## 📝 Description
@@ -30,9 +30,9 @@ A Deno module to send IFTTT webhook.
 
 ```ts
 /* Either */
-import { ... } from "https://deno.land/x/send-ifttt-webhook/mod.ts";// Named Import
-import * as iftttWebhook from "https://deno.land/x/send-ifttt-webhook/mod.ts";// Namespace Import
-import IFTTTWebhook from "https://deno.land/x/send-ifttt-webhook/mod.ts";// Default Import (Class `IFTTTWebhook`)
+import { ... } from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Named Import
+import * as iftttWebhook from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Namespace Import
+import IFTTTWebhook from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Default Import (Class `IFTTTWebhook`)
 ```
 
 ### API
