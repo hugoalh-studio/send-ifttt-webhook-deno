@@ -74,7 +74,7 @@ class IFTTTWebhook {
 		if (!iftttMakerURLRegExp.test(key)) {
 			throw new SyntaxError(`Argument \`key\` is not a valid IFTTT webhook key!`);
 		}
-		//@ts-ignore
+		//@ts-ignore False positive.
 		this.#key = key.match(iftttMakerURLRegExp).groups.key;
 		if (typeof options.arbitraryDefault === "boolean") {
 			this.#arbitraryDefault = options.arbitraryDefault;
