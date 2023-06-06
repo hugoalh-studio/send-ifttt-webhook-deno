@@ -3,7 +3,7 @@ const iftttMakerURLRegExp = /^(?:https:\/\/maker\.ifttt\.com\/use\/)?(?<key>(?:[
 const iftttWebhookSendInit: RequestInit = {
 	headers: {
 		"Content-Type": "application/json",
-		"User-Agent": `Deno/${Deno.version.deno}-${Deno.build.os}-${Deno.build.arch} SendIFTTTWebhook/1.0.0`
+		"User-Agent": `Deno/${Deno.version.deno}-${Deno.build.os}-${Deno.build.arch} SendIFTTTWebhook/0.1.0`
 	},
 	method: "POST",
 	redirect: "follow"
