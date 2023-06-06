@@ -20,6 +20,7 @@ A Deno module to send IFTTT webhook.
 
 > **🔗 Other Edition:**
 >
+> - [GitHub Action](https://github.com/hugoalh-studio/send-ifttt-webhook-ghaction)
 > - [NodeJS](https://github.com/hugoalh-studio/send-ifttt-webhook-nodejs)
 
 ## 📚 Documentation
@@ -31,7 +32,7 @@ A Deno module to send IFTTT webhook.
 ```ts
 /* Either */
 import { ... } from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Named Import
-import * as iftttWebhook from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Namespace Import
+import * as sendIFTTTWebhook from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Namespace Import
 import IFTTTWebhook from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Default Import (Class `IFTTTWebhook`)
 ```
 
