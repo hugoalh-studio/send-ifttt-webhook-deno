@@ -20,7 +20,7 @@ A Deno module to send IFTTT webhook.
 
 > **🔗 Other Edition:**
 >
-> - [GitHub Action](https://github.com/hugoalh-studio/send-ifttt-webhook-ghaction)
+> - [GitHub Action](https://github.com/hugoalh/send-ifttt-webhook-ghaction)
 > - [NodeJS](https://github.com/hugoalh-studio/send-ifttt-webhook-nodejs)
 
 ## 📚 Documentation
