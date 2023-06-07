@@ -13,7 +13,8 @@
 
 | **Versions** | **Status** | **Target - Deno** |
 |:-:|:-:|:-:|
-| v1.0.X | L | >= v1.34.0 |
+| v0.2.X | ✔ | >= v1.34.0 |
+| v0.1.X | ✔ | >= v1.34.0 |
 
 ## Report Vulnerability
 
