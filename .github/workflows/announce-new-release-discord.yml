@@ -10,7 +10,7 @@ jobs:
     with:
       name: "Send IFTTT Webhook (Deno)"
       color: "#000000"
-      thumbnail: "https://static-00.iconduck.com/assets.00/deno-icon-256x256-aruys1fu.png"
+      thumbnail: "https://i.imgur.com/r4wRkZ5.png"
       releases: |
         **- Deno Land:** https://deno.land/x/send_ifttt_webhook
         **- GitHub (& Changelog):** ${{github.event.release.html_url}}
