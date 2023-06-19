@@ -11,7 +11,6 @@
 
 | **Releases** | **Latest** (![GitHub Latest Release Date](https://img.shields.io/github/release-date/hugoalh-studio/send-ifttt-webhook-deno?label=&style=flat-square "GitHub Latest Release Date")) | **Pre** (![GitHub Latest Pre-Release Date](https://img.shields.io/github/release-date-pre/hugoalh-studio/send-ifttt-webhook-deno?label=&style=flat-square "GitHub Latest Pre-Release Date")) |
 |:-:|:-:|:-:|
-| [![Deno Land](https://img.shields.io/badge/Deno%20Land-000000?logo=deno&logoColor=ffffff&style=flat-square "Deno Land")](https://deno.land/x/send_ifttt_webhook) |  |  |
 | [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=ffffff&style=flat-square "GitHub")](https://github.com/hugoalh-studio/send-ifttt-webhook-deno/releases) ![GitHub Total Downloads](https://img.shields.io/github/downloads/hugoalh-studio/send-ifttt-webhook-deno/total?label=&style=flat-square "GitHub Total Downloads") | ![GitHub Latest Release Version](https://img.shields.io/github/release/hugoalh-studio/send-ifttt-webhook-deno?sort=semver&label=&style=flat-square "GitHub Latest Release Version") | ![GitHub Latest Pre-Release Version](https://img.shields.io/github/release/hugoalh-studio/send-ifttt-webhook-deno?include_prereleases&sort=semver&label=&style=flat-square "GitHub Latest Pre-Release Version") |
 
 ## 📝 Description
@@ -38,7 +37,7 @@ import IFTTTWebhook from "<URL>";// Default Import (Class `IFTTTWebhook`)
 
 | **Domain / Registry** | **URL** |
 |:-:|:--|
-| Deno Land | `https://deno.land/x/send_ifttt_webhook[@<Tag>]/mod.ts` |
+| [Deno Land](https://deno.land/x/send_ifttt_webhook) | `https://deno.land/x/send_ifttt_webhook[@<Tag>]/mod.ts` |
 | DenoPKG | `https://denopkg.com/hugoalh-studio/send-ifttt-webhook-deno[@<Tag>]/mod.ts` |
 | GitHub Raw | `https://raw.githubusercontent.com/hugoalh-studio/send-ifttt-webhook-deno/<Tag>/mod.ts` |
 | Nest Land | *Todo* |
