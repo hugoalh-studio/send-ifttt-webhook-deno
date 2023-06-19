@@ -31,10 +31,28 @@ A Deno module to send IFTTT webhook.
 
 ```ts
 /* Either */
-import { ... } from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Named Import
-import * as sendIFTTTWebhook from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Namespace Import
-import IFTTTWebhook from "https://deno.land/x/send_ifttt_webhook/mod.ts";// Default Import (Class `IFTTTWebhook`)
+import { ... } from "<URL>";// Named Import
+import * as sendIFTTTWebhook from "<URL>";// Namespace Import
+import IFTTTWebhook from "<URL>";// Default Import (Class `IFTTTWebhook`)
 ```
+
+| **Domain / Registry** | **URL** |
+|:-:|:--|
+| Deno Land | `https://deno.land/x/send_ifttt_webhook[@<Tag>]/mod.ts` |
+| DenoPKG | `https://denopkg.com/hugoalh-studio/send-ifttt-webhook-deno[@<Tag>]/mod.ts` |
+| GitHub Raw | `https://raw.githubusercontent.com/hugoalh-studio/send-ifttt-webhook-deno/<Tag>/mod.ts` |
+| Nest Land | *Todo* |
+| Pax | `https://pax.deno.dev/hugoalh-studio/send-ifttt-webhook-deno[@<Tag>]/mod.ts` |
+
+> **⚠ Important:**
+>
+> - These domains/registries are not well supported to import this package:
+>   - ESM>CDN (https://esm.sh)
+>   - jsDelivr (https://cdn.jsdelivr.net)
+>   - JSPM (https://dev.jspm.io)
+>   - Skypack (https://cdn.pika.dev, https://cdn.skypack.dev)
+>   - UNPKG (https://unpkg.com)
+> - Using domain/registry GitHub Raw must provide a tag; For alternative, use domain/registry Pax.
 
 ### API
 
