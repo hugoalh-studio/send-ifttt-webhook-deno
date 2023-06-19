@@ -39,19 +39,10 @@ import IFTTTWebhook from "<URL>";// Default Import (Class `IFTTTWebhook`)
 |:-:|:--|
 | [Deno Land](https://deno.land/x/send_ifttt_webhook) | `https://deno.land/x/send_ifttt_webhook[@<Tag>]/mod.ts` |
 | DenoPKG | `https://denopkg.com/hugoalh-studio/send-ifttt-webhook-deno[@<Tag>]/mod.ts` |
-| GitHub Raw | `https://raw.githubusercontent.com/hugoalh-studio/send-ifttt-webhook-deno/<Tag>/mod.ts` |
-| Nest Land | *Todo* |
+| GitHub Raw **\*** | `https://raw.githubusercontent.com/hugoalh-studio/send-ifttt-webhook-deno/<Tag>/mod.ts` |
 | Pax | `https://pax.deno.dev/hugoalh-studio/send-ifttt-webhook-deno[@<Tag>]/mod.ts` |
 
-> **⚠ Important:**
->
-> - These domains/registries are not well supported to import this package:
->   - ESM>CDN (https://esm.sh)
->   - jsDelivr (https://cdn.jsdelivr.net)
->   - JSPM (https://dev.jspm.io)
->   - Skypack (https://cdn.pika.dev, https://cdn.skypack.dev)
->   - UNPKG (https://unpkg.com)
-> - Using domain/registry GitHub Raw must provide a tag; For alternative, use domain/registry Pax.
+**\*:** Must provide a tag.
 
 ### API
 
