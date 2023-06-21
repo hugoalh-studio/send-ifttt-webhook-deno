@@ -78,6 +78,6 @@ import IFTTTWebhook from "<URL>";// Default Import (Class `IFTTTWebhook`)
 
 ### Example
 
-```js
+```ts
 new IFTTTWebhook("my-ifttt-webhook-key").sendArbitrary("test", { message: "Hello, world!" });
 ```
